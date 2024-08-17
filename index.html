@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Design Example</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img id="logo" src="logo.png" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="wellcom">
+            <h2 class="animated-text">សូមស្វាគមន៏មកកាន់ ខេមម៉ូតូ</h2>
+
+            <h3>ព័ត៍មានលំអិតអំពីការប្រម៉ូសិនលក់ទឹកថ្នាំលាងកាទែម៉ាស៊ីន</h5>
+                <p><span>ប្រម៉ូសិនទី១៖ </span>សម្រាប់ការទិញទឹកថ្នាំ ១លីត្រ តម្លៃ ២៥០០០រៀល ថែមជូន ខ្សាច់សមុទ្រ
+                    និងសាប៊ូក្រូច៥កញ្ចប់
+                </p>
+                <img src="onelite.jpg" alt=""> <img src="plus.jpg" alt=""><img src="seaAndOrage.jpg" alt="">
+
+        </section>
+        <section class="wellcom">
+            <p><span>ប្រម៉ូសិនទី២៖</span> សម្រាប់ការទិញទឹកថ្នាំ ១លីត្រ តម្លៃ ២៥០០០រៀល ថែមជូន ដបសម្រាប់បាញ់ទឹកថ្នាំ១</p>
+            <img src="onelite.jpg" alt=""> <img src="plus.jpg" alt=""><img src="bottle.jpg" alt="">
+        </section>
+        <section class="wellcom">
+            <p><span>ប្រម៉ូសិនទី៣៖</span> សម្រាប់ការទិញទឹកថ្នាំ ២លីត្រ តម្លៃ ៥០០០០រៀល ថែមជូន ដបសម្រាប់បាញ់ទឹកថ្នាំ១​
+                ខ្សាច់សមុទ្រ
+                និងសាប៊ូក្រូច៥កញ្ចប់</p>
+            <img src="twolite.jpg" alt=""> <img src="plus.jpg" alt=""><img src="all.jpg" alt="">
+        </section>
+        <section>
+            <h2>ទំនាក់ទំនងទូរស័ព្ទលេខ៖</h2>
+            <ul>
+                <div class="contact-container">
+                    <div class="box-item" onclick="callNumber('012994244')">
+                        <div class="icon">
+                            <img class="img" src="call_icon.png" alt="">
+                            <p class="telephone">012 99 42 44</p>
+                        </div>
+
+                    </div>
+                    <div class="icon" onclick="camsale()">
+                        <img class="img" src="telegram.png" alt="">
+                        <p class="telephone">012 99 42 44</p>
+                    </div>
+                </div>
+            </ul>
+        </section>
+            <div  class="animated-box">
+
+            </div>
+        <script>
+            function callNumber(phoneNumber) {
+                window.location.href = "tel:" + phoneNumber;
+            }
+            function camsale() {
+                window.location.href = "https://t.me/cammoto_part";
+            }
+        </script>
+    </main>
+</body>
+
+</html>

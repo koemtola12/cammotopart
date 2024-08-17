@@ -1,0 +1,178 @@
+ /* Global Styles */
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+     color: #333;
+ }
+
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+
+ }
+
+ /* .wellcome{
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+ /* Header Styles */
+ header {
+     background-color: #333;
+     height: 100px;
+     color: #fff;
+     padding: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ nav ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+ }
+
+
+
+ nav a {
+     color: #fff;
+     text-decoration: none;
+ }
+
+ /* Main Content Styles */
+ main {
+     padding: 20px 0;
+ }
+
+ section {
+     margin-bottom: 30px;
+     margin-top: 20px;
+ }
+
+ h2 {
+     margin-bottom: 20px;
+ }
+
+ /* Responsive Styles */
+ @media (max-width: 768px) {
+     .container {
+         padding: 10px;
+     }
+
+     nav li {
+         margin: 0 5px;
+     }
+
+ }
+
+ @media (max-width: 480px) {
+     nav ul {
+         flex-direction: column;
+         align-items: center;
+     }
+
+ }
+ img {
+     width: 120px;
+     height: 120px;
+ }
+
+ #logo {
+     height: 180px;
+     width: 180px;
+ }
+
+
+ .img {
+     margin-top: 0px;
+     max-width: 20px;
+     max-height: 20px;
+     object-fit: contain;
+ }
+
+ .icon {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     padding: 2px;
+ }
+
+ .telephone {
+     margin-left: 5px;
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+ }
+
+ #fabT {
+     font-size: 30px;
+     color: rgb(0, 157, 255);
+
+ }
+
+ .fab {
+     font-size: 30px;
+ }
+
+
+ @font-face {
+     font-family: 'Khmer OS';
+     src: url('path/to/khmer-os-font.woff2') format('woff2'),
+         url('path/to/khmer-os-font.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ p,
+ h2,
+ h3,
+ .telephone {
+     font-family: 'Khmer OS', sans-serif;
+ }
+
+ h2 {
+     color: blue;
+ }
+
+ h3 {
+     color: rgb(255, 145, 0);
+ }
+
+ span {
+     color: rgb(255, 0, 0);
+     font-style: inherit;
+ }
+
+ .animated-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0077b6;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animated-box{
+    height: 30px;
+    background: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
